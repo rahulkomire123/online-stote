@@ -1,0 +1,31 @@
+header{
+    background-color: rgb(48, 48, 58);
+    color: wheat;
+    text-align: center;
+    padding: 20px;
+}
+
+h2{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: lightcoral;
+    font-size: x-large;
+    justify-content: center;
+    text-align: center;
+}
+div{
+    background-color: rgb(95, 95, 101);
+    color: wheat;
+    padding: 20px;
+}
+section{
+    background-color: grey;
+    display: flex;
+    justify-content: last baseline;
+}
+section,p{
+    color: black;
+}
+div,a{
+    text-align: center;
+    justify-content: center;
+}

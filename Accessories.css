@@ -1,0 +1,62 @@
+header{
+    background-color: rgb(48, 48, 58);
+    color: wheat;
+    text-align: center;
+    padding: 20px;
+}
+
+h2{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: lightcoral;
+    font-size: x-large;
+    justify-content: center;
+    text-align: center;
+}
+section{
+    padding: 20px;
+    border-bottom: 1px solid black;
+}
+
+.product-grid{
+    gap: 20px;
+
+}
+
+
+
+/* #product{
+    display: flex;
+    gap: 20px;
+    overflow-x: auto;
+} */
+
+#product::-webkit-scrollbar{
+    display: none;
+}
+
+.product{
+    border: 2px solid black;
+    padding: 20px;
+    border-radius: 15px;
+    text-align: center;
+    height: max-content
+}
+
+.product img {
+    border-radius: 5px;
+    border-color: black;
+    width: 200px;
+    height: 200px;
+    margin: 40px;
+}
+
+.product button {
+    padding: 20px;
+    background-color: black;
+    color: bisque;
+    border: black;
+    border-radius: 5px;
+}
+div,a{
+    text-align: center;
+}
